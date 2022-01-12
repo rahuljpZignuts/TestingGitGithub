@@ -8,9 +8,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         snackbar()
+        showToast()
     }
 
     private fun snackbar(){
         // sample code for snackbar
+
+    }
+
+    private fun showToast(){
+        //sample toast message
     }
 }
