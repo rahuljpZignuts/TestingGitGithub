@@ -12,5 +12,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun snackbar(){
         // sample code for snackbar
+        //code for snackbar
     }
 }
