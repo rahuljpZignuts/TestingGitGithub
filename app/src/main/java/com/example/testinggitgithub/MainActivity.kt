@@ -15,5 +15,6 @@ class MainActivity : AppCompatActivity() {
         //sample toast message
         //bug fixed
         Toast.makeText(applicationContext,"Hello World 2",Toast.LENGTH_SHORT).show()
+        Toast.makeText(applicationContext,"Hello bye",Toast.LENGTH_SHORT).show()
     }
 }
