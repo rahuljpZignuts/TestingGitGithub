@@ -18,5 +18,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun showToast(){
         //sample toast message
+        //bug fixed
     }
 }
