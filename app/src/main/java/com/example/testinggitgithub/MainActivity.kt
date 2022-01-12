@@ -2,6 +2,7 @@ package com.example.testinggitgithub
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,5 +14,6 @@ class MainActivity : AppCompatActivity() {
     private fun showToast(){
         //sample toast message
         //bug fixed
+        Toast.makeText(applicationContext,"Hello World",Toast.LENGTH_SHORT).show()
     }
 }
